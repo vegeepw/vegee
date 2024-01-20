@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/vegee/static/css/main.647c6a27.css",
+    "main.js": "/vegee/static/js/main.5198b793.js",
+    "static/js/787.92aa3ec2.chunk.js": "/vegee/static/js/787.92aa3ec2.chunk.js",
+    "static/media/imgbox2@3x.png": "/vegee/static/media/imgbox2@3x.6d63a37d0d2952c5cf8a.png",
+    "static/media/imgbox5@3x.png": "/vegee/static/media/imgbox5@3x.a42ffdc2ef512ad60904.png",
+    "static/media/imgbox6@3x.png": "/vegee/static/media/imgbox6@3x.fe5264f4e8e0683e20fa.png",
+    "static/media/imgbox9@3x.png": "/vegee/static/media/imgbox9@3x.44481d94f117c909c87f.png",
+    "static/media/imgbox3@3x.png": "/vegee/static/media/imgbox3@3x.4cd56c5785a335e5e21b.png",
+    "static/media/imgbox1@3x.png": "/vegee/static/media/imgbox1@3x.9356d785b97ad9c76c3b.png",
+    "static/media/imgbox4@3x.png": "/vegee/static/media/imgbox4@3x.96a3debb5cbb3616efc7.png",
+    "static/media/imgbox@3x.png": "/vegee/static/media/imgbox@3x.8887217f53b8fc4b67ab.png",
+    "static/media/imgbox7@3x.png": "/vegee/static/media/imgbox7@3x.66ade09de7ddcdfcc2c5.png",
+    "static/media/imgbox8@3x.png": "/vegee/static/media/imgbox8@3x.deca84af17a710f333d7.png",
+    "static/media/imgbox10@3x.png": "/vegee/static/media/imgbox10@3x.b44959234319c8dcef65.png",
+    "static/media/imgbox11@3x.png": "/vegee/static/media/imgbox11@3x.dbb0f71bd1c9a21c40c0.png",
+    "index.html": "/vegee/index.html",
+    "main.647c6a27.css.map": "/vegee/static/css/main.647c6a27.css.map",
+    "main.5198b793.js.map": "/vegee/static/js/main.5198b793.js.map",
+    "787.92aa3ec2.chunk.js.map": "/vegee/static/js/787.92aa3ec2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.647c6a27.css",
+    "static/js/main.5198b793.js"
+  ]
+}
