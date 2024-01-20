@@ -1,0 +1,109 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.vegee8 {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.vegee-wrapper5 {
+  width: 187px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.videos {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.videos-wrapper {
+  text-decoration: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+  font-size: var(--font-size-3xl);
+  color: inherit;
+}
+.frame-group,
+.imgbox-icon {
+  align-self: stretch;
+  overflow: hidden;
+}
+.frame-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-3xs);
+}
+.imgbox-icon {
+  position: relative;
+  border-radius: var(--br-8xs);
+  max-width: 100%;
+  height: 501px;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.vegee9 {
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 600;
+}
+.home,
+.home-inner,
+.vegee-wrapper6 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.vegee-wrapper6 {
+  border-radius: var(--br-3xs);
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-8xs);
+}
+.home,
+.home-inner {
+  justify-content: flex-start;
+}
+.home-inner {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-xs);
+  font-family: var(--font-reem-kufi);
+}
+.home {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  padding: var(--padding-31xl) var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  opacity: 0;
+  text-align: center;
+  font-size: var(--font-size-36xl);
+  color: var(--color-black);
+  font-family: var(--font-tourney);
+}
+.home.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
