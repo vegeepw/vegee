@@ -1,0 +1,74 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.twoDaysLater {
+  margin-block-start: 0;
+  margin-block-end: 15px;
+}
+.aStakeout {
+  margin: 0;
+}
+.twoDaysLaterContainer {
+  align-self: stretch;
+  position: relative;
+}
+.body {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.vegee {
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 600;
+}
+.footer,
+.pragmaonMyWayToWork,
+.vegeeWrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.vegeeWrapper {
+  border-radius: var(--br-3xs);
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-8xs);
+}
+.footer,
+.pragmaonMyWayToWork {
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-xs);
+  font-family: var(--font-reem-kufi);
+}
+.pragmaonMyWayToWork {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  padding: var(--padding-31xl) var(--padding-8xs) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  opacity: 0;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.pragmaonMyWayToWork.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
