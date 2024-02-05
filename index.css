@@ -64,10 +64,10 @@
 .ss {
   align-self: stretch;
   overflow: hidden;
-  background-image: url(./public/frames-stack@2x.png);
+  background-image: url(./public/ss@3x.png);
 }
 .tie {
-  background-image: url(./public/frames-stack1@2x.png);
+  background-image: url(./public/tie@3x.png);
 }
 .tags,
 .tie,
