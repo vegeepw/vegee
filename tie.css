@@ -1,0 +1,1128 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.taking-it-easy1 {
+  width: 182px;
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h1 {
+  width: 190px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.breathing-in-breathing,
+.but-im-learning,
+.ive-cried-on,
+.ive-given-up,
+.ive-gone-places,
+.ive-made-sacrifices,
+.ive-prayed-for,
+.ive-wept,
+.just-taking-it,
+.one-step-at,
+.places-i-will {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.im-taking-it {
+  margin: 0;
+}
+.ive-cried-on-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-mid);
+  text-transform: lowercase;
+  font-family: var(--font-turret-road);
+  text-align: left;
+}
+.inner-frame {
+  align-self: stretch;
+  height: 497px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-reem-kufi);
+}
+.taking-it-easy2 {
+  align-self: stretch;
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h11 {
+  width: 162px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+}
+.following-wherever-the,
+.i-really-dont,
+.ill-leave-traces,
+.it-doesnt-really,
+.kiss-under-the,
+.lets,
+.lets-get-kicked,
+.lets-go-get,
+.lets-go-to,
+.lets-walk-along {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.as-long-as {
+  margin: 0;
+}
+.lets-go-to-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  text-transform: lowercase;
+  font-family: var(--font-turret-road);
+  text-align: left;
+}
+.frame-collection,
+.taking-it-easy3 {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: center;
+}
+.frame-collection {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.taking-it-easy3 {
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h12 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.a-few-seconds,
+.and-its-very,
+.breathing-on-my,
+.but-i-never,
+.but-i-see,
+.creeping-up-with,
+.full-of-joy,
+.how-unfortunate,
+.i-answer-you,
+.i-cant-really,
+.i-feel-death,
+.i-feel-waves,
+.i-repeat-with,
+.it-comes-in,
+.it-only-lasts,
+.it-usually-comes,
+.its-as-if,
+.ive-grown-accustomed,
+.so-you-ask,
+.why-everyone-seem {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.i-feel-waves1 {
+  margin: 0;
+}
+.i-feel-death-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-transform: lowercase;
+}
+.frame-collection1 {
+  align-self: stretch;
+  height: 910px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.taking-it-easy4 {
+  height: 33px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: center;
+}
+.h13 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.after-all-there,
+.but-i-chose,
+.even-on-days,
+.he-grabbed-my,
+.he-lets-go,
+.he-raised-his,
+.i-get-it,
+.i-moved-my,
+.i-remember-because,
+.i-say-unable,
+.i-still-cant,
+.its-so-beautiful,
+.now-i-stopped,
+.simply-experience-it,
+.there-was-no,
+.to-share-with,
+.we-fall-in,
+.when-did-you,
+.when-i-realized,
+.when-i-stopped,
+.yours-is-not {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.not-until-i {
+  margin: 0;
+}
+.i-remember-because-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.frame-collection2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.taking-it-easy5 {
+  height: 33px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: center;
+}
+.h14 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.another-one-of,
+.another-one-of1,
+.but-i-really,
+.deep-down-we,
+.hoping-that-our,
+.its-always-been,
+.listen-closely-its,
+.so-we-laugh,
+.we-laughed-and,
+.which-one-of,
+.which-one-of1,
+.which-one-of2,
+.whos-next {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.i-try-to {
+  margin: 0;
+}
+.we-laughed-and-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.boxx,
+.taking-it-easy6 {
+  color: var(--color-black);
+}
+.boxx {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-turret-road);
+}
+.taking-it-easy6 {
+  height: 33px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-reem-kufi);
+  text-align: center;
+}
+.h15 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.each-one-easier,
+.each-twist-enticing,
+.full-of-mystery,
+.full-of-turns,
+.how-complex-is,
+.i-cant-see,
+.i-look-back,
+.i-smile-as,
+.im-surrounded-by,
+.so-i-ran,
+.the-less-i,
+.the-more-i,
+.they-move-rhythmically {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.blissfully-having-no {
+  margin: 0;
+}
+.how-complex-is-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body1,
+.boxx1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.boxx1 {
+  overflow: hidden;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.taking-it-easy7 {
+  height: 33px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: center;
+}
+.h16 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.a-fool-of,
+.but-im-smiling,
+.here-it-comes,
+.i-have-so,
+.i-wished-you,
+.just-how-amazing {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.but-here-it {
+  margin: 0;
+}
+.here-it-comes-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body2,
+.boxx2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.boxx2 {
+  overflow: hidden;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.taking-it-easy8 {
+  align-self: stretch;
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h17 {
+  width: 153px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+}
+.i-walk-in {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-turret-road);
+}
+.boxx3,
+.taking-it-easy9 {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: center;
+}
+.boxx3 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.taking-it-easy9 {
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h18 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aches-and-throbs,
+.because-it-hurts,
+.do-i-let,
+.i-had-nothing,
+.i-still-dont,
+.im-not-really,
+.is-it-even,
+.it-aches-and,
+.it-hurts-all,
+.it-hurts-somewhere,
+.they-stung-different,
+.those-ones-you {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.so-for-now {
+  margin: 0;
+}
+.it-hurts-somewhere-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body4,
+.boxx4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.boxx4 {
+  overflow: hidden;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.taking-it-easy10 {
+  height: 33px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: center;
+}
+.h19 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.but-of-all,
+.it-is-with,
+.it-seems-like,
+.ode-to-the,
+.of-all-i,
+.then-we-laughed,
+.we-cried-and,
+.we-lived-we,
+.when-we-tell {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.cheers-to-the {
+  margin: 0;
+}
+.it-is-with-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-transform: lowercase;
+}
+.body5,
+.boxx5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.body5 {
+  flex: 1;
+}
+.boxx5 {
+  height: 420px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.taking-it-easy11 {
+  width: 184px;
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h110 {
+  width: 192px;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.because-even-in,
+.for-now-well,
+.i-clutched-you,
+.i-feel-the,
+.i-might-be,
+.ive-never-smiled,
+.we-sway-all,
+.you-make-my {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.im-so-happy {
+  margin: 0;
+}
+.i-clutched-you-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-turret-road);
+}
+.boxx6,
+.taking-it-easy12 {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: center;
+}
+.boxx6 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.taking-it-easy12 {
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h111 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.i-said-we,
+.im-talking-real,
+.look-at-me,
+.me-where-im,
+.no-wonder-they,
+.we-built-different,
+.we-dawgs-where,
+.we-dont-complain,
+.we-tuff-where,
+.where-im-from,
+.you-dont-wanna {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.we-dawgs-where1 {
+  margin: 0;
+}
+.me-where-im-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-transform: lowercase;
+}
+.body7,
+.boxx7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.body7 {
+  flex: 1;
+}
+.boxx7 {
+  height: 459px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.taking-it-easy13 {
+  height: 33px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: center;
+}
+.h112 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.all-we-did,
+.and-well-fall,
+.even-though-i,
+.i-know-im,
+.i-regret-the,
+.i-wrote-this,
+.it-was-a,
+.it-wasnt-much,
+.something-was-playing,
+.that-well-meet,
+.whilst-our-perfect,
+.you-know {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.there-is-no {
+  margin: 0;
+}
+.you-know-i-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-transform: lowercase;
+}
+.body8,
+.boxx8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.body8 {
+  flex: 1;
+}
+.boxx8 {
+  height: 792px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.why-wont-you {
+  align-self: stretch;
+  height: 66px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h113 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.come-down-ground-is,
+.how-you-wanted,
+.i-hope-you,
+.i-smile-a,
+.i-stand-up,
+.it-seem-they,
+.nothing-left-but,
+.oh-hell-i,
+.spent-too-much,
+.still-jumping-about,
+.the-brightest-smiles,
+.well-now-youre,
+.why-wont-you1 {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.well-one-last {
+  margin: 0;
+}
+.the-brightest-smiles-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-turret-road);
+}
+.boxx9,
+.stuntin-like-my {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-reem-kufi);
+  color: var(--color-black);
+  text-align: left;
+}
+.boxx9 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.stuntin-like-my {
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h114 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cant-wait-till,
+.ill-break-bones,
+.ill-walk-round,
+.im-up-here,
+.left-to-right,
+.swaying-funky-cuz {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.wishing-they-was {
+  margin: 0;
+}
+.im-up-here-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body10,
+.boxx10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.boxx10 {
+  overflow: hidden;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.viragos-kiss {
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h115 {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.boy-aint-nobody,
+.came-for-the,
+.ever-since-we,
+.everything-is-about,
+.i-dont-even,
+.i-just-cant,
+.i-know-you,
+.i-love-you,
+.i-whispered-in,
+.in-the-middle,
+.look-i-just-made,
+.my-god-what,
+.now-im-at,
+.she-aint-pay,
+.she-dont-need,
+.she-left-me,
+.so-why-you,
+.so-you-ready,
+.thats-why-she,
+.told-cisco-she,
+.yeah-thats-what,
+.you-know-how,
+.you-know-them {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.now-shes-beating {
+  margin: 0;
+}
+.in-the-middle-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+}
+.body11,
+.boxx11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-turret-road);
+}
+.boxx11 {
+  overflow: hidden;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-reem-kufi);
+}
+.m-are-you {
+  height: 33px;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.h116 {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-darkslategray);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.all-the-memories,
+.all-the-times,
+.are-you-just,
+.but-you-know,
+.here-right-here,
+.i-would-lie,
+.if-theres-anyone,
+.ive-loved-you,
+.ive-seen-you,
+.just-stop-stop,
+.m-you-wont,
+.maybe-it-will,
+.now-your-hands,
+.oh-so-many,
+.what-is-this,
+.who-was-i {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.are-you-still {
+  margin: 0;
+}
+.all-the-times-container {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  text-transform: lowercase;
+}
+.body12,
+.boxx12 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.body12 {
+  flex: 1;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-turret-road);
+}
+.boxx12 {
+  height: 737px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-reem-kufi);
+}
+.vegee1 {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.frame-within-frame {
+  width: 104px;
+  border-radius: var(--br-3xs);
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.copyright-text,
+.frame-within-frame,
+.taking-it-easy {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.copyright-text {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-reem-kufi);
+}
+.taking-it-easy {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  opacity: 0;
+}
+.taking-it-easy.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}

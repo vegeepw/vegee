@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem Kufi:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Turret Road:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home" data-animate-on-scroll>
+      <header class="header">
+        <img
+          class="main-frames-icon"
+          loading="eager"
+          alt=""
+          src="./public/frame-17@2x.png"
+        />
+
+        <button class="video-frame" id="videoFrame">
+          <b class="vid">vid</b>
+        </button>
+      </header>
+      <main class="tags">
+        <section class="pragma" id="pragma"></section>
+        <section class="ss" id="ss"></section>
+        <section class="tie" id="tie"></section>
+        <img class="sdrwsl-icon" alt="" src="./public/tie@3x.png" />
+      </main>
+      <footer class="footer">
+        <div class="vegee-wrapper">
+          <div class="vegee">VEGEE ©</div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      var videoFrame = document.getElementById("videoFrame");
+      if (videoFrame) {
+        videoFrame.addEventListener("click", function () {
+          window.open("https://www.youtube.com/@vegeething");
+        });
+      }
+      
+      var pragma = document.getElementById("pragma");
+      if (pragma) {
+        pragma.addEventListener("click", function (e) {
+          window.location.href = "./pragma.html";
+        });
+      }
+      
+      var ss = document.getElementById("ss");
+      if (ss) {
+        ss.addEventListener("click", function (e) {
+          window.location.href = "./ss.html";
+        });
+      }
+      
+      var tie = document.getElementById("tie");
+      if (tie) {
+        tie.addEventListener("click", function (e) {
+          window.location.href = "./tie.html";
+        });
+      }
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
