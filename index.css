@@ -49,7 +49,7 @@
   padding: var(--padding-3xs);
 }
 .pragma {
-  background-image: url(./public/pragma@3x.png);
+  background-image: url(./public/pragma@4x.png);
 }
 .pragma,
 .ss,
@@ -78,7 +78,7 @@
 .tie1 {
   flex: 1;
   border-radius: var(--br-sm);
-  background-image: url(./public/tie@3x.png);
+  background-image: url(./public/dhcvf@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
