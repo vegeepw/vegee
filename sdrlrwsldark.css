@@ -1,0 +1,121 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.as-in1 {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+}
+.h137 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.sipping-out-the1 {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.shit-wrong-animal1 {
+  margin: 0;
+}
+.sipping-out-the-container1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  text-transform: lowercase;
+  font-family: var(--font-turret-road);
+}
+.boxx33 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.black-and-white1 {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+}
+.h140 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.vegee7 {
+  position: relative;
+  text-transform: uppercase;
+}
+.vegee-wrapper4 {
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-8xs);
+}
+.sdrlrwsldark,
+.sdrlrwsldark-inner {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sdrlrwsldark-inner {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-3xs);
+  text-align: center;
+  font-size: var(--font-size-5xs);
+  font-family: var(--font-syne);
+}
+.sdrlrwsldark {
+  width: 100%;
+  position: relative;
+  background-color: #010101;
+  align-items: flex-start;
+  padding: var(--padding-11xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  opacity: 0;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--font-reem-kufi);
+}
+.sdrlrwsldark.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
+@media screen and (max-width: 1200px) {
+  .sdrlrwsldark {
+    opacity: 0;
+  }
+  .sdrlrwsldark.animate {
+    animation: 1s ease 0s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
