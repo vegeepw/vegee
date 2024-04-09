@@ -1,0 +1,78 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.atlanta-georgia {
+  margin-block-start: 0;
+  margin-block-end: 15px;
+}
+.his-smile-quickly {
+  margin: 0;
+}
+.bedford-rd-atlanta-container {
+  align-self: stretch;
+  position: relative;
+}
+.bedford-rd,
+.on-my-way-to-work {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+}
+.on-my-way-to-work {
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.vegee4 {
+  position: relative;
+  text-transform: uppercase;
+}
+.footer2,
+.pragmalight,
+.vegee-wrapper1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.vegee-wrapper1 {
+  border-radius: var(--br-3xs);
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-8xs);
+}
+.footer2,
+.pragmalight {
+  justify-content: flex-start;
+}
+.footer2 {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-5xs);
+  font-family: var(--font-syne);
+}
+.pragmalight {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  padding: var(--padding-11xl) var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  opacity: 0;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-turret-road);
+}
+.pragmalight.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
