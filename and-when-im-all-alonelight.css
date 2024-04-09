@@ -1,0 +1,117 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.taking-it-easy17 {
+  align-self: stretch;
+  position: relative;
+  text-transform: uppercase;
+}
+.h150 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.you-just-finished1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  text-transform: lowercase;
+  font-family: var(--font-turret-road);
+}
+.boxx46 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.taking-it-easy18 {
+  position: relative;
+  text-transform: uppercase;
+}
+.h151 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.its-tuesday1 {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.youve-got-the1 {
+  margin: 0;
+}
+.its-tuesday-im-container1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  text-transform: lowercase;
+  font-family: var(--font-turret-road);
+  text-align: left;
+}
+.boxx47,
+.vegee-wrapper5 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.boxx47 {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  text-align: center;
+}
+.vegee-wrapper5 {
+  border-radius: var(--br-3xs);
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-8xs);
+}
+.and-when-im-all-alonelight,
+.and-when-im-all-alonelight-inner {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.and-when-im-all-alonelight-inner {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-3xs);
+  text-align: center;
+  font-size: var(--font-size-5xs);
+  font-family: var(--font-syne);
+}
+.and-when-im-all-alonelight {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  padding: var(--padding-11xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  opacity: 0;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-reem-kufi);
+}
+.and-when-im-all-alonelight.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
