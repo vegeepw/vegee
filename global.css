@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-syne: Syne;
+  --font-sf-pro-rounded: "SF Pro Rounded";
+  --font-reem-kufi: "Reem Kufi";
+
+  /* font sizes */
+  --font-size-5xs: 8px;
+  --font-size-mid: 17px;
+  --font-size-xl: 20px;
+  --font-size-3xl: 22px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray-100: #fcfcfc;
+  --color-gray-300: #131313;
+  --color-gray-200: rgba(255, 255, 255, 0.5);
+  --color-gray-400: rgba(35, 35, 35, 0.91);
+  --color-dimgray: #4d4d4d;
+  --color-silver: #bdbdbd;
+  --color-whitesmoke: #f2f2f2;
+  --color-whitesmoke-100: #eaeaea;
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-3xs: 10px;
+  --gap-6xl: 25px;
+
+  /* Paddings */
+  --padding-11xl: 30px;
+  --padding-8xs: 5px;
+  --padding-3xs: 10px;
+  --padding-9xs: 4px;
+  --padding-10xs: 3px;
+  --padding-xl: 20px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-4xs: 9px;
+  --br-7xs: 6px;
+  --br-sm: 14px;
+  --br-mini: 15px;
+}

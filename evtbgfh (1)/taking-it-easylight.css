@@ -1,0 +1,160 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.youtube-container {
+  text-decoration: none;
+  box-shadow: 0 0 0 3px #e4e4e4;
+  border-radius: var(--br-sm);
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-xl);
+  cursor: pointer;
+  color: inherit;
+}
+.frame-item {
+  width: 11px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-whitesmoke-100);
+  height: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-container,
+.frame-group,
+.header {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.frame-container {
+  text-decoration: none;
+  width: 22px;
+  box-shadow: 0 3px 6.5px rgba(70, 70, 70, 0.23);
+  border-radius: var(--br-4xs);
+  background-color: var(--color-gray-100);
+  height: 18px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-10xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.frame-group,
+.header {
+  justify-content: space-between;
+}
+.frame-group {
+  flex: 1;
+  align-items: flex-start;
+  padding: var(--padding-3xs);
+}
+.header {
+  align-self: stretch;
+  align-items: flex-end;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-syne);
+}
+.taking-it-easy {
+  position: relative;
+  text-transform: uppercase;
+}
+.h1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.ive-cried-on {
+  margin-block-start: 0;
+  margin-block-end: 30px;
+}
+.im-taking-it {
+  margin: 0;
+}
+.ive-cried-on-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mid);
+  text-transform: lowercase;
+  font-weight: 300;
+  font-family: var(--font-sf-pro-rounded);
+  text-align: left;
+}
+.component {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.we-laughed-and-container {
+  align-self: stretch;
+  position: relative;
+  text-transform: lowercase;
+  font-weight: 300;
+}
+.body {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  font-family: var(--font-sf-pro-rounded);
+}
+.vegee-container {
+  border-radius: var(--br-3xs);
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-8xs);
+}
+.taking-it-easylight,
+.taking-it-easylight-inner,
+.vegee-container {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.taking-it-easylight-inner {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-3xs);
+  font-size: var(--font-size-5xs);
+  font-family: var(--font-syne);
+}
+.taking-it-easylight {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  opacity: 0;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-reem-kufi);
+}
+.taking-it-easylight.animate {
+  animation: 1s ease 0s 1 normal forwards fade-in;
+}
