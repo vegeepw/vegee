@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./sdrlrwsl.css" rel="stylesheet" />
+
+      <div class="sdrlrwsl-container">
+        <div class="sdrlrwsl-sdrlrwsl">
+          <div class="sdrlrwsl-header">
+            <div class="sdrlrwsl-frame20">
+              <a
+                href="https://www.youtube.com/@VeeeeGg"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="sdrlrwsl-link"
+              >
+                <div class="sdrlrwsl-frame16">
+                  <span class="sdrlrwsl-text"><span>YOUTUBE</span></span>
+                </div>
+              </a>
+              <a href="index.html" class="sdrlrwsl-navlink">
+                <div class="sdrlrwsl-frame21">
+                  <div class="sdrlrwsl-frame22"></div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="sdrlrwsl-boxx">
+            <div class="sdrlrwsl-h1">
+              <span class="sdrlrwsl-text002"><span>RED/ORANGE</span></span>
+            </div>
+            <span class="sdrlrwsl-text004">
+              <span>
+                I don’t know if it’s getting slower or faster today.&nbsp;
+              </span>
+              <br />
+              <span>Cold one today</span>
+              <br />
+              <span>I could almost make out the smell&nbsp;</span>
+              <br />
+              <span>I know I stumbled on it</span>
+              <br />
+              <span>We were driving back to your hometown&nbsp;</span>
+              <br />
+              <span>It was late, nighttime</span>
+              <br />
+              <span>
+                The pretty leaves and tall rocks have now settled to bed
+              </span>
+              <br />
+              <span>They’re still tall although not as pretty</span>
+              <br />
+              <span>They’ve covered themselves in black blankets</span>
+              <br />
+              <span>They look thick</span>
+              <br />
+              <span>
+                Like if the tall rocks and pretty trees took it off and put it
+                on me
+              </span>
+              <br />
+              <span>My knees would probably fold</span>
+              <br />
+              <span>But that’s okay,</span>
+              <br />
+              <span>It looks better on them.</span>
+              <br />
+              <span>see the tree</span>
+              <br />
+              <span>They’re now black clouds</span>
+            </span>
+          </div>
+          <div class="sdrlrwsl-boxx1">
+            <div class="sdrlrwsl-h11">
+              <span class="sdrlrwsl-text036">
+                <span>LOST IN LASSCASSASS</span>
+              </span>
+            </div>
+            <span class="sdrlrwsl-text038">
+              <span>It was only me</span>
+              <br />
+              <span>Happened to me only</span>
+              <br />
+              <span>happy it was</span>
+              <br />
+              <span>i stumbled late in</span>
+              <br />
+              <span>I’ve missed it so</span>
+              <br />
+              <span>Halls full of their low humming chatter</span>
+              <br />
+              <span>lungs full of air i’ve missed so</span>
+              <br />
+              <span>to be honest i didn’t think i’d see you</span>
+              <br />
+              <span>you’re so you like so</span>
+              <br />
+              <span>i never know you like so</span>
+              <br />
+              <span>to be honest i wanted it to only be me</span>
+              <br />
+              <span>finally only me you know</span>
+              <br />
+              <span>but i walk into the four corners</span>
+              <br />
+              <span>far away i am met by you</span>
+              <br />
+              <span>there you are</span>
+              <br />
+              <span>“fuck” i muttered</span>
+              <br />
+              <span>no thoughts, i tried not to wait</span>
+              <br />
+              <span>the whole while i’m pacing in place</span>
+              <br />
+              <span>i thought it was only me</span>
+              <br />
+              <span>i was so happy it was</span>
+              <br />
+              <span>i don’t know what to do now again</span>
+              <br />
+              <span>i tried to help it</span>
+              <br />
+              <span>my eyes still doesn’t listen</span>
+              <br />
+              <span>“fuck” i whisper again</span>
+              <br />
+              <span>like a loose screw being grinded to work</span>
+              <br />
+              <span>i;m feets away again</span>
+              <br />
+              <span>you walked past me</span>
+              <br />
+              <span>i was only confused for a second, i started back up</span>
+              <br />
+              <span>you were outside now the bell had rung</span>
+              <br />
+              <span>stopped every which way along your trail</span>
+              <br />
+              <span>not this again, i don’t want to lose your scent again</span>
+              <br />
+              <span>i got outside</span>
+              <br />
+              <span>all i did was stay</span>
+              <br />
+              <span>frozen still</span>
+              <br />
+              <span>i couldn’t mouth words</span>
+              <br />
+              <span>
+                the green bright field of grass seemed too small to fit us both
+              </span>
+              <br />
+              <span>it kept getting closer</span>
+              <br />
+              <span>pushed me away</span>
+              <br />
+              <span>draining the air i freshly got</span>
+              <br />
+              <span>the same field we rode on and on on</span>
+              <br />
+              <span>with your orange bicycle and mine golden bright</span>
+              <br />
+              <span>you lost in lasscassass and then i’m back</span>
+              <br />
+              <span>so who is he</span>
+              <br />
+              <span>my head dropped</span>
+              <br />
+              <span>you said nothing</span>
+              <br />
+              <span>you walked past me</span>
+              <br />
+              <span>past the streets we ran on</span>
+              <br />
+              <span>the scene we played on</span>
+              <br />
+              <span>
+                it wasn’t to fetch our bicycles the sun had beamed and beaten on
+              </span>
+              <br />
+              <span>you picked up your ball and returned</span>
+              <br />
+              <span>you walked past me</span>
+              <br />
+              <span>you lost in lassscassass and then i’m back</span>
+              <br />
+              <span>i did it right, it worked</span>
+              <br />
+              <span>so who is he</span>
+              <br />
+              <span>i wish i shouted it instead i froze still</span>
+              <br />
+              <span>the pacing stopped</span>
+              <br />
+              <span>my heart did too</span>
+            </span>
+          </div>
+          <div class="sdrlrwsl-boxx2">
+            <div class="sdrlrwsl-h12">
+              <span class="sdrlrwsl-text152">
+                episode eleven (ARIEANNA’S POEM)
+              </span>
+            </div>
+            <span class="sdrlrwsl-text153">
+              <span>lips tied shut</span>
+              <br />
+              <span>compassion lets in</span>
+              <br />
+              <span>not for myself but for everyone else</span>
+              <br />
+              <span>how can i be so selfish</span>
+              <br />
+              <span>i can’t ask for help</span>
+              <br />
+              <span>worthless, useless, tired and drained</span>
+              <br />
+              <span>on these days i lack everything that’s sane</span>
+              <br />
+              <span>
+                unworthy feelings follow as sadness creeps through my mind
+              </span>
+              <br />
+              <span>everything i seem not to be</span>
+              <br />
+              <span>or the seem to be</span>
+              <br />
+              <span>only so much helping i can do myself</span>
+              <br />
+              <span>caution</span>
+              <br />
+              <span>i’m barely surviving</span>
+              <br />
+              <span>but i’m the strong friend</span>
+              <br />
+              <span>strong daughter</span>
+              <br />
+              <span>strong lover</span>
+              <br />
+              <span>strong enough to see the end</span>
+              <br />
+              <span>body becomes heavy</span>
+              <br />
+              <span>unknown triggers overtake</span>
+              <br />
+              <span>tearing me down</span>
+              <br />
+              <span>all over and everywhere</span>
+              <br />
+              <span>i only have symptoms to show</span>
+              <br />
+              <span>teary eyed praying for those close</span>
+              <br />
+              <span>in the midnight hour a knock awakens my heart</span>
+              <br />
+              <span>breaking my wish to sleep</span>
+              <br />
+              <span>these hours of operation becoming too much for me</span>
+              <br />
+              <span>becoming all to familiar to me</span>
+            </span>
+          </div>
+          <div class="sdrlrwsl-frame1">
+            <div class="sdrlrwsl-frame4">
+              <span class="sdrlrwsl-text207"><span>vegee ©</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/react-components/dist/animate-on-reveal.umd.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,315 @@
+.takingiteasy-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-takingiteasy {
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 30px 0;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(18, 18, 18, 1);
+}
+.takingiteasy-header {
+  gap: 101px;
+  display: flex;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.takingiteasy-frame20 {
+  display: flex;
+  padding: 20px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+.takingiteasy-link {
+  display: contents;
+}
+.takingiteasy-frame16 {
+  gap: 10px;
+  display: flex;
+  padding: 5px 20px;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 3px rgba(49, 49, 49, 1) ;
+  align-items: flex-start;
+  border-radius: 14px;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: rgba(18, 18, 18, 1);
+}
+.takingiteasy-text {
+  color: rgba(188, 188, 188, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Syne;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.takingiteasy-navlink {
+  display: contents;
+}
+.takingiteasy-frame21 {
+  gap: 10px;
+  width: 22px;
+  height: 18px;
+  display: flex;
+  padding: 4px 3px;
+  overflow: hidden;
+  box-shadow: 0px 2px 7.900000095367432px -1px rgba(116, 116, 116, 0.49000000953674316) ;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 9px;
+  justify-content: space-between;
+  text-decoration: none;
+  background-color: rgba(35, 35, 35, 0.9100000262260437);
+}
+.takingiteasy-frame22 {
+  width: 11px;
+  height: 10px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background-color: rgba(77, 77, 77, 1);
+}
+.takingiteasy-frame14 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-h1 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: content-box;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-text02 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Reem Kufi;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.takingiteasy-text04 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 17px;
+  align-self: stretch;
+  font-style: Light;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.takingiteasy-boxx {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-h11 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: content-box;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-text26 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Reem Kufi;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.takingiteasy-body {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-text28 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 17px;
+  align-self: stretch;
+  font-style: Light;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.takingiteasy-boxx1 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-h12 {
+  gap: 10px;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  box-sizing: content-box;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-text56 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Reem Kufi;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.takingiteasy-body1 {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.takingiteasy-text58 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 17px;
+  align-self: stretch;
+  font-style: Light;
+  text-align: center;
+  font-family: SF Pro Rounded;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.takingiteasy-frame1 {
+  gap: 20px;
+  display: flex;
+  padding: 10px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.takingiteasy-frame4 {
+  gap: 10px;
+  display: flex;
+  padding: 10px 5px;
+  overflow: hidden;
+  align-items: flex-start;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+.takingiteasy-text84 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 8px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Syne;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .takingiteasy-text02 {
+    text-transform: uppercase;
+  }
+  .takingiteasy-text26 {
+    text-transform: uppercase;
+  }
+  .takingiteasy-text56 {
+    text-transform: uppercase;
+  }
+}
+@media(max-width: 767px) {
+  .takingiteasy-text02 {
+    text-transform: uppercase;
+  }
+  .takingiteasy-text26 {
+    text-transform: uppercase;
+  }
+  .takingiteasy-text56 {
+    text-transform: uppercase;
+  }
+}
+@media(max-width: 479px) {
+  .takingiteasy-takingiteasy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .takingiteasy-frame20 {
+    padding: 20px;
+    align-items: center;
+  }
+  .takingiteasy-frame21 {
+    justify-content: center;
+  }
+  .takingiteasy-text02 {
+    text-transform: uppercase;
+  }
+  .takingiteasy-text26 {
+    text-transform: uppercase;
+  }
+  .takingiteasy-text56 {
+    text-transform: uppercase;
+  }
+}
